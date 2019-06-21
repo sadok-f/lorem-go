@@ -1,7 +1,9 @@
-# simple-go
+# Lorem-go
 
-### Simple Go application
+### Simple Lorem Ipsum generator written in Go
+
 
 ```
   go run main.go
 ```
+
