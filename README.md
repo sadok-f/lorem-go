@@ -1,9 +1,8 @@
 # Lorem-go
+Simple HTTP server to generate a Lorem Ipsum json response written in Go
 
-### Simple Lorem Ipsum generator written in Go
+### Run the applicaiton as docker container
+    make run
 
-
-```
-  go run main.go
-```
-
+### Push the Docker image to docker.io
+    make push
