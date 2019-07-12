@@ -2,7 +2,7 @@ PROJECT?=github.com/sadok-f/lorem-go
 APP?=lorem-go
 PORT?=3000
 
-RELEASE?=0.0.1
+RELEASE?=0.0.2
 CONTAINER_IMAGE?=docker.io/sadokf/${APP}
 
 GOOS?=linux

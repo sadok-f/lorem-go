@@ -54,7 +54,7 @@ func home() http.HandlerFunc {
       title,
       desc, 
       time.Now(),
-      '0.0.1'
+      "0.0.2",
     }
 
     body, err := json.Marshal(rand)
