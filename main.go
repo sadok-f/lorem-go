@@ -25,6 +25,7 @@ type Rand struct {
   Title string `json:"title"`
   Description string `json:"description"`
   Date time.Time `json:"date"`
+  Version string `json:"version"`
 }
 
 var wordsList = []string{
@@ -53,6 +54,7 @@ func home() http.HandlerFunc {
       title,
       desc, 
       time.Now(),
+      '0.0.1'
     }
 
     body, err := json.Marshal(rand)
